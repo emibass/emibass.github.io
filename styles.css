@@ -1,0 +1,98 @@
+body {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    background-image: url("Home image_640p.jpg");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-position: right;
+    background-size: 50%;
+    
+}
+
+.navbar {
+    height: 150px; 
+    box-shadow: 0px 0px 20px #87bdd8;
+    background-color: black;
+}
+
+.fas {
+    color: #87bdd8;
+}
+
+.fa {
+    color: #87bdd8;
+}
+
+.top {
+   height: 200px;
+  }
+
+.link {
+    font-weight: bolder;
+    color: #87bdd8;
+    text-decoration: none;
+  }
+
+.link:hover {
+    color: white;
+  }
+
+  h1 {
+    text-transform: uppercase; font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  h2 {
+  text-transform: uppercase; font-size: 22px;
+  font-family: 'Indie Flower', cursive;
+  margin: 30px 0 0 0;
+  }
+
+  .container {
+    display: flexbox;
+    width: 60%;
+    background-image:  linear-gradient(270deg, rgba(247,247,247,0) 0%, rgba(3,1,1,1) 20%);   
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    min-height: 100vh; 
+    padding-bottom: 55px;
+    padding-top: 200px; 
+    margin-left: 100px;
+  }
+
+  button {
+    width: 100px;
+    background-color: black;
+    border-color: #87bdd8;
+    border: solid 1px;
+    color: #87bdd8;
+  }
+  
+  /* mobile only */
+   @media screen and (max-width: 500px) {
+    .container {
+        display: flexbox;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 90%;
+        min-height: 100vh; 
+        padding-bottom: 55px;
+        padding-top: 200px;
+        background-image: linear-gradient(270deg, rgba(247,247,247,0) 11%, rgba(3,1,1,1) 56%);     
+      }
+
+      body {
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        background-color: black;
+        background-image: url("Home image_640p.jpg");
+        background-repeat: no-repeat;
+        background-attachment: cover;
+        background-size: auto;
+    }
+  }
